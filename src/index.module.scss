@@ -18,9 +18,10 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: $Grayish-Blue;
   &:active,
   &:visited {
-    color: inherit;
+    color: unset;
   }
 }
 
