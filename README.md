@@ -40,7 +40,7 @@ Users should be able to:
 
 ### `Links`
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-react-js-KJVVKtBrR)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/insure-landing-page-using-react-js-LfMekLqHB)
 - Live Site URL: [Live site](https://vicgok.github.io/insure-landing-page/)
 
 ## `Author`
