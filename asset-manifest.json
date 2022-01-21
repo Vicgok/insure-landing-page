@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/insure-landing-page/static/css/main.aefe7d0a.css",
+    "main.js": "/insure-landing-page/static/js/main.a17142b8.js",
+    "static/media/image-intro-desktop.jpg": "/insure-landing-page/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/image-intro-mobile.jpg": "/insure-landing-page/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
+    "static/media/logo.svg": "/insure-landing-page/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
+    "static/media/bg-pattern-mobile-nav.svg": "/insure-landing-page/static/media/bg-pattern-mobile-nav.b2fceba3d85314c10486.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/insure-landing-page/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/insure-landing-page/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de4.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/insure-landing-page/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/insure-landing-page/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf.svg",
+    "static/media/bg-pattern-footer-mobile.svg": "/insure-landing-page/static/media/bg-pattern-footer-mobile.9f048cf0d8710a041f70.svg",
+    "static/media/bg-pattern-how-we-work-mobile.svg": "/insure-landing-page/static/media/bg-pattern-how-we-work-mobile.96cd9d0635dc0b442022.svg",
+    "static/media/bg-pattern-intro-left-mobile.svg": "/insure-landing-page/static/media/bg-pattern-intro-left-mobile.111709ef92e6f76465a9.svg",
+    "static/media/bg-pattern-intro-right-mobile.svg": "/insure-landing-page/static/media/bg-pattern-intro-right-mobile.0354e57129409ea983cd.svg",
+    "static/media/icon-affordable-prices.svg": "/insure-landing-page/static/media/icon-affordable-prices.a14b80772734da267900f7318cf981cc.svg",
+    "static/media/icon-instagram.svg": "/insure-landing-page/static/media/icon-instagram.46cfe17c3109f3bd2460963bc5beb553.svg",
+    "static/media/icon-pinterest.svg": "/insure-landing-page/static/media/icon-pinterest.5b02655f8f80d07884a7ed52397ff073.svg",
+    "static/media/icon-people-first.svg": "/insure-landing-page/static/media/icon-people-first.d7caeec6d85bd1e295394236448c7dc9.svg",
+    "index.html": "/insure-landing-page/index.html",
+    "static/media/icon-twitter.svg": "/insure-landing-page/static/media/icon-twitter.5e850eb31e4bad3bc4bf26b14b0cdd7f.svg",
+    "static/media/icon-facebook.svg": "/insure-landing-page/static/media/icon-facebook.4333c44571bee8e7f461b2fdaed6a6c0.svg",
+    "static/media/icon-snappy-process.svg": "/insure-landing-page/static/media/icon-snappy-process.eea918825472aa9c0993c85ced5522e7.svg",
+    "main.aefe7d0a.css.map": "/insure-landing-page/static/css/main.aefe7d0a.css.map",
+    "main.a17142b8.js.map": "/insure-landing-page/static/js/main.a17142b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aefe7d0a.css",
+    "static/js/main.a17142b8.js"
+  ]
+}
