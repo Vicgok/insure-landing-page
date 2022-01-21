@@ -1,0 +1,40 @@
+@import './Utility';
+.buttonDefault {
+  display: block;
+  width: auto;
+  padding: 0.7em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+
+  font-weight: 700;
+
+  &.btn-light-dark-combo {
+    color: $Very-Light-Gray;
+    outline: 0.2em solid $Very-Light-Gray;
+  }
+
+  &.btn-light {
+    padding: 0.7em 2em;
+    color: $Very-Light-Gray;
+    outline: 0.05em solid $Very-Light-Gray;
+  }
+  &:hover {
+    background-color: $Very-Light-Gray;
+    color: $Very-Dark-Violet;
+  }
+}
+@media (min-width: 50em) {
+  .buttonDefault {
+    padding: 0.7em 2em;
+    &.btn-light-dark-combo {
+      color: $Dark-Violet;
+
+      outline: 0.2em solid $Dark-Violet;
+      &:hover {
+        color: $Very-Light-Gray;
+        background-color: $Very-Dark-Violet;
+      }
+    }
+  }
+}

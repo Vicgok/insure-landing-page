@@ -1,0 +1,92 @@
+@import './Utility';
+
+.navlinkWrap {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 36em;
+
+  padding: 0 1em;
+  background: url('../images/bg-pattern-mobile-nav.svg') no-repeat bottom /
+    contain;
+  background-color: $Very-Dark-Violet;
+  font-family: $font-body;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: $Very-Light-Gray;
+
+  clip-path: inset(0 0 100% 0);
+  transition: all 0.5s ease;
+  z-index: 1;
+  & > * {
+    margin-top: 3.25em;
+  }
+  .navlinks li {
+    & ~ li {
+      margin-top: 3.25em;
+    }
+
+    letter-spacing: 0.125em;
+    &:hover {
+      color: $Dark-Grayish-Violet;
+    }
+  }
+
+  &.open {
+    clip-path: inset(0 0 0 0);
+    transition: all 0.5s ease;
+  }
+}
+
+@media (min-width: 50em) {
+  .navlinkWrap {
+    position: unset;
+    clip-path: unset;
+    text-align: unset;
+    height: unset;
+    background: unset;
+    background-color: unset;
+    padding: unset;
+    width: auto;
+
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 1rem;
+    color: $Dark-Grayish-Violet;
+    & > * {
+      margin-top: unset;
+    }
+    .navlinks {
+      display: flex;
+      align-items: center;
+
+      li {
+        margin-right: 1.5em;
+        & ~ li {
+          margin-top: unset;
+        }
+        // &:not(:last-child) {
+        //   margin-right: 1.375em;
+        // }
+        // &:last-child {
+        //   color: $Dark-Violet;
+        //   padding: 0.7em 2em;
+        //   outline: 0.2em solid $Dark-Violet;
+
+        //   &:hover {
+        //     color: $Very-Light-Gray;
+        //     background-color: $Very-Dark-Violet;
+        //   }
+        // }
+
+        &:hover {
+          color: $Very-Dark-Violet;
+        }
+      }
+    }
+  }
+}

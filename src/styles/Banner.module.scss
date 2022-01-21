@@ -1,0 +1,45 @@
+@import './Utility';
+.banner {
+  padding: 4.688rem 2.5rem;
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+
+  background: url(../images/bg-pattern-how-we-work-mobile.svg) no-repeat top
+      right / contain,
+    $Dark-Violet;
+
+  .banner__title {
+    margin-bottom: 2.75rem;
+    max-width: 30em;
+    font-family: $font-headings;
+    font-weight: 400;
+    font-size: clamp(2rem, 10.6vw, 3.625rem);
+    line-height: 1;
+
+    color: $Very-Light-Gray;
+  }
+}
+
+@media (min-width: 40em) {
+  .banner {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 4.875rem;
+
+    background: url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat top
+        right / contain,
+      $Dark-Violet;
+    .banner__title {
+      margin-bottom: unset;
+      span {
+        display: block;
+      }
+    }
+  }
+}

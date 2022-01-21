@@ -1,0 +1,44 @@
+@import './Utility';
+.navbar {
+  position: relative;
+  width: 100%;
+
+  padding: 1.5em;
+  background-color: $Very-Light-Gray;
+  z-index: 2;
+  animation: slideUp 0.5s ease forwards;
+
+  &.navbar__sticky {
+    position: sticky;
+    width: 100%;
+    top: -50px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
+    animation: slideDown 0.5s ease forwards;
+  }
+}
+@keyframes slideDown {
+  to {
+    top: 0;
+  }
+}
+@keyframes slideUp {
+  to {
+    top: 0;
+  }
+}
+.navbar__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .navbar__logo {
+    height: 1em;
+  }
+}
+
+@media (min-width: 70em) {
+  .navbar {
+    padding: 1.5em 0;
+  }
+}
